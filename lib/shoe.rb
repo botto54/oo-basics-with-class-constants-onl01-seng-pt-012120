@@ -14,7 +14,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  BRANDS.size(3)
+  puts BRANDS.size(3)
   # def brand=(brand)
   #   @brand = brand
   #   BRANDS << 
