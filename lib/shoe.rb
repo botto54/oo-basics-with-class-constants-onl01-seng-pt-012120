@@ -15,8 +15,7 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    BRANDS << brand
-    BRANDS.size
+    BRANDS << brand.size[]
   end
 
 end
