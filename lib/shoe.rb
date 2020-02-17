@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand.size(3)
+    BRANDS << brand
   end
 
   def cobble
@@ -14,6 +14,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
+  BRANDS.size(3)
   # def brand=(brand)
   #   @brand = brand
   #   BRANDS << 
