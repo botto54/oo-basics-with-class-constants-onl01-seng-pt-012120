@@ -7,7 +7,6 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    puts BRANDS.size(3)
   end
 
   def cobble
